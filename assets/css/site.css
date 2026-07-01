@@ -1000,6 +1000,16 @@ h1,h2,h3{font-family:var(--sans);letter-spacing:-.025em;font-weight:600}
 }
 .cs-pcard-left .cs-download{margin:0}
 
+/* image-wrap when moved into cs-pcard-right */
+.cs-pcard-right .cs-pcard-image-wrap{
+  border-radius:12px;
+  border:1px solid var(--ink16);
+  border-bottom:1px solid var(--ink16);
+  margin:clamp(16px,2vw,22px) clamp(24px,3vw,40px);
+  width:auto;
+}
+
+
 /* Right column — a tiny shade deeper than the left, no image, no blur */
 .cs-pcard-right{
   display:flex;flex-direction:column;gap:0;
